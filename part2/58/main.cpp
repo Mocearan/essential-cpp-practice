@@ -21,8 +21,7 @@ bool print_sequence(int pos);
 int main(void)
 {
 	int pos;
-
-
+	
 	while(true){
 		cout << "Please enter a position" << endl;
 		if(!(cin >> pos))
