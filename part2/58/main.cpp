@@ -45,9 +45,9 @@ int main(void)
 template<typename T>
 void display_message(const string& msg, const vector<T>& vec, ostream& os)
 {
-	cout << msg;
+	os << msg;
 	for(const auto& i : vec)
-		cout << i << ' ';
+		os << i << ' ';
 }
 
 
