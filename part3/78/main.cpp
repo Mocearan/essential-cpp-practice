@@ -88,10 +88,8 @@ void erase(void)
 {
     list<string> slist;
     
-    list<string>::iterator it = find(slist.begin(), slist.end(), "aaa");
+    list<string>::iterator it = find(slist.begin(), slist.end(), "aaaa");
     slist.erase(it);
-
-
 
     list<string>::iterator first = slist.begin()
                         , last = slist.end();
