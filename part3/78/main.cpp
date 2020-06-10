@@ -87,11 +87,19 @@ void inserts()
 void erase(void)
 {
     list<string> slist;
+    
+    list<string>::iterator it = find(slist.begin(), slist.end(), "aaa");
+    slist.erase(it);
+
+
+
     list<string>::iterator first = slist.begin()
                         , last = slist.end();
     string str = "a", sval = "val";
     list<string>::iterator it1 = find(first, last, str);
     list<string>::iterator it2 = find(first, last, sval);
+
+    slist.erase(it1, it2);
 
     //slist.erase(it1, it1 + num_size); error: list并不支持iterator的偏移量
 }
