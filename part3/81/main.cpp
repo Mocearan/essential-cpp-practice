@@ -24,6 +24,7 @@ bool grow_vec(vector<int>& vec, int elem)
     return (elem == vec.back()) ? true : false;
 }
 
+
 bool is_elem(vector<int>& vec, int elem)
 {
     // check index of elem exists
