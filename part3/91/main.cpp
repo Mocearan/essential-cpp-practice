@@ -1,15 +1,5 @@
 
 /* =============================================================================
-* -> FilePath     : /essential-cpp-practice/part3/91/main.cpp
-* -> Author       : Mass
-* -> Date         : 2020-07-07 12:02:37
-* -> version      : 
-* -> LastEditors  : Mass
-* -> LastEditTime : 2020-07-07 12:02:37
-* -> Description  : 
-* =============================================================================*/
-
-/* =============================================================================
 * -> FilePath     : /Mass/code/essential-cpp-practice/part3/90/main.cpp
 * -> Author       : Mass
 * -> Date         : 2020-06-23 09:32:20
@@ -40,7 +30,7 @@ void t1()
     {
         if(word_exclusion.count(tword))
             continue;
-
+        
         word[tword]++;
     }
 }
